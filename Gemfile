@@ -21,6 +21,9 @@ gem 'sass-rails', '~> 4.0.3'
 # Use stripe for e-commerce payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+# Figaro gem for securely managing credentials
+gem 'figaro'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
